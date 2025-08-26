@@ -1,0 +1,50 @@
+:root {
+    --heading-font: "Playfair Display", serif;
+    --body-font: "Source Sans 3", sans-serif;
+
+    --primary: #ff6a3e;
+    --primaryLight: #ffba43;
+    --secondary: #ffba43;
+    --secondaryLight: #ffba43;
+    --background-color: #fffaf0;
+    --headerColor: #112336;
+    --bodyTextColor: #112336;
+    --bodyTextColorWhite: #fafbfc;
+}
+
+body {
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+
+}
+
+html, body {
+  scroll-snap-type: y mandatory;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+}
+
+p, a, li, ul, span {
+    font-family: var(--body-font);
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+@media screen and (min-width: 1074px) {
+    html, body {
+    scroll-snap-type: none;
+  }
+}
+
