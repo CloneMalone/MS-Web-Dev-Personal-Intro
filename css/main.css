@@ -1,15 +1,23 @@
 :root {
+    /* Fonts */
     --heading-font: "Playfair Display", serif;
     --body-font: "Source Sans 3", sans-serif;
 
-    --primary: #ff6a3e;
-    --primaryLight: #ffba43;
-    --secondary: #ffba43;
-    --secondaryLight: #ffba43;
+    /* FX */
+    --box-shadow: 0 0px 16px rgb(17, 35, 54);
+    --nav-box-shadow: 0 4px 12px rgba(228, 183, 178, 0.4);
+    --text-gradient: 
+
+
+
+    /* Colors General */
+    --primary: #112336;
     --background-color: #fffaf0;
     --headerColor: #112336;
     --bodyTextColor: #112336;
-    --bodyTextColorWhite: #fafbfc;
+
+    /* Nav */
+    --nav-background-color: #e4b7b2;
 }
 
 body {

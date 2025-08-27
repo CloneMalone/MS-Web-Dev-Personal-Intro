@@ -1,14 +1,10 @@
 # Personal Introduction Website 🌍✨
 
-This project is a simple **personal introduction webpage** built with **HTML, CSS, and JavaScript**, featuring smooth animations, responsive layouts, and a modern navigation bar powered by **[CodeStitch](https://codestitch.app/)**.
+This project is a simple **personal introduction webpage** built with **HTML/CSS**, featuring smooth animations and a responsive layout.
 
 ---
 
 ## 🚀 Features
-- **Responsive Navigation Bar**  
-  Built with **CodeStitch**, including a mobile-first hamburger toggle menu.  
-  Accessible with `aria-expanded` attributes for better usability.
-  
 - **Scroll-Snapping Layout**  
   Sections are aligned cleanly with `scroll-snap`, creating a polished browsing experience.
 
